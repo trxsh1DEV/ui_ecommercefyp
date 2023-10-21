@@ -2,7 +2,7 @@ import { Badge } from '@mui/material';
 import { ShoppingCartOutlined, Search } from '@mui/icons-material';
 import * as Styled from './styles';
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <Styled.Container>
       <Styled.Wrapper>
@@ -37,6 +37,4 @@ export const Navbar = () => {
   );
 };
 
-// Navbar.propTypes = {
-//   children: P.node.isRequired,
-// };
+export default Navbar;
