@@ -10,7 +10,7 @@ export const theme = {
   fonts: {
     family: {
       default: "'Roboto', sans-serif",
-      secondary: "'Open Sans', -apple-system'",
+      secondary: "'Open Sans', -apple-system",
     },
     sizes: {
       xsmall: '8rem',
