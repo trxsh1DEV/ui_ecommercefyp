@@ -4,14 +4,14 @@ import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyles } from './styles/global-styles';
-// import Home from './pages/Home';
-import ProductList from './pages/ProductList/ProductList';
+
+import Cart from './pages/Cart/Cart';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <ProductList />
+      <Cart />
     </ThemeProvider>
   </React.StrictMode>,
 );

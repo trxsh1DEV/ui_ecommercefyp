@@ -9,7 +9,7 @@ export const theme = {
   },
   fonts: {
     family: {
-      default: "'Roboto', sans-serif",
+      default: "'Urbanist', sans-serif",
       secondary: "'Open Sans', -apple-system",
     },
     sizes: {
